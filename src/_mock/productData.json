@@ -1,0 +1,198 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Organic Almonds",
+      "category": "Snacks",
+      "price": 15.99,
+      "currency": "USD",
+      "description": "Raw, unsalted, organic almonds packed with nutrients.",
+      "images": ["https://example.com/images/organic-almonds1.jpg", "https://example.com/images/organic-almonds2.jpg"],
+      "rating": 4.8,
+      "reviews": 102,
+      "stock": 150,
+      "brand": "Nature's Finest",
+      "certifications": ["USDA Organic", "Non-GMO"],
+      "weight": "16 oz",
+      "dimensions": {
+        "length": 6,
+        "width": 4,
+        "height": 2
+      },
+      "ingredients": ["Organic Almonds"],
+      "tags": ["nuts", "snacks", "healthy"]
+    },
+    {
+      "id": 2,
+      "name": "Organic Green Tea",
+      "category": "Beverages",
+      "price": 9.99,
+      "currency": "USD",
+      "description": "Refreshing organic green tea sourced from sustainable farms.",
+      "images": [
+        "https://example.com/images/organic-green-tea1.jpg",
+        "https://example.com/images/organic-green-tea2.jpg"
+      ],
+      "rating": 4.6,
+      "reviews": 89,
+      "stock": 200,
+      "brand": "PureLeaf Organics",
+      "certifications": ["USDA Organic", "Fair Trade"],
+      "weight": "20 tea bags",
+      "dimensions": {
+        "length": 5,
+        "width": 3,
+        "height": 3
+      },
+      "ingredients": ["Organic Green Tea"],
+      "tags": ["tea", "beverage", "caffeine"]
+    },
+    {
+      "id": 3,
+      "name": "Organic Coconut Oil",
+      "category": "Cooking",
+      "price": 12.49,
+      "currency": "USD",
+      "description": "Cold-pressed, virgin organic coconut oil perfect for cooking and skincare.",
+      "images": [
+        "https://example.com/images/organic-coconut-oil1.jpg",
+        "https://example.com/images/organic-coconut-oil2.jpg"
+      ],
+      "rating": 4.9,
+      "reviews": 150,
+      "stock": 120,
+      "brand": "Tropical Naturals",
+      "certifications": ["USDA Organic", "Non-GMO"],
+      "weight": "16 oz",
+      "dimensions": {
+        "length": 4,
+        "width": 4,
+        "height": 6
+      },
+      "ingredients": ["Organic Coconut Oil"],
+      "tags": ["cooking", "oil", "skincare"]
+    },
+    {
+      "id": 4,
+      "name": "Organic Cabbage (BadhaKopi)",
+      "category": "Vegetable",
+      "price": 12.49,
+      "currency": "USD",
+      "description": "Cold-pressed, virgin organic coconut oil perfect for cooking and skincare.",
+      "images": [
+        "https://example.com/images/organic-coconut-oil1.jpg",
+        "https://example.com/images/organic-coconut-oil2.jpg"
+      ],
+      "rating": 4.9,
+      "reviews": 150,
+      "stock": 120,
+      "brand": "Tropical Naturals",
+      "certifications": ["USDA Organic", "Non-GMO"],
+      "weight": "16 oz",
+      "dimensions": {
+        "length": 4,
+        "width": 4,
+        "height": 6
+      },
+      "ingredients": ["Organic Coconut Oil"],
+      "tags": ["cooking", "oil", "skincare"]
+    },
+    {
+      "id": 5,
+      "name": "Organic Almonds",
+      "category": "Snacks",
+      "price": 15.99,
+      "currency": "USD",
+      "description": "Raw, unsalted, organic almonds packed with nutrients.",
+      "images": ["https://example.com/images/organic-almonds1.jpg", "https://example.com/images/organic-almonds2.jpg"],
+      "rating": 4.8,
+      "reviews": 102,
+      "stock": 150,
+      "brand": "Nature's Finest",
+      "certifications": ["USDA Organic", "Non-GMO"],
+      "weight": "16 oz",
+      "dimensions": {
+        "length": 6,
+        "width": 4,
+        "height": 2
+      },
+      "ingredients": ["Organic Almonds"],
+      "tags": ["nuts", "snacks", "healthy"]
+    },
+    {
+      "id": 6,
+      "name": "Organic Green Tea",
+      "category": "Beverages",
+      "price": 9.99,
+      "currency": "USD",
+      "description": "Refreshing organic green tea sourced from sustainable farms.",
+      "images": [
+        "https://example.com/images/organic-green-tea1.jpg",
+        "https://example.com/images/organic-green-tea2.jpg"
+      ],
+      "rating": 4.6,
+      "reviews": 89,
+      "stock": 200,
+      "brand": "PureLeaf Organics",
+      "certifications": ["USDA Organic", "Fair Trade"],
+      "weight": "20 tea bags",
+      "dimensions": {
+        "length": 5,
+        "width": 3,
+        "height": 3
+      },
+      "ingredients": ["Organic Green Tea"],
+      "tags": ["tea", "beverage", "caffeine"]
+    },
+    {
+      "id": 7,
+      "name": "Organic Coconut Oil",
+      "category": "Cooking",
+      "price": 12.49,
+      "currency": "USD",
+      "description": "Cold-pressed, virgin organic coconut oil perfect for cooking and skincare.",
+      "images": [
+        "https://example.com/images/organic-coconut-oil1.jpg",
+        "https://example.com/images/organic-coconut-oil2.jpg"
+      ],
+      "rating": 4.9,
+      "reviews": 150,
+      "stock": 120,
+      "brand": "Tropical Naturals",
+      "certifications": ["USDA Organic", "Non-GMO"],
+      "weight": "16 oz",
+      "dimensions": {
+        "length": 4,
+        "width": 4,
+        "height": 6
+      },
+      "ingredients": ["Organic Coconut Oil"],
+      "tags": ["cooking", "oil", "skincare"]
+    },
+    {
+      "id": 8,
+      "name": "Organic Cabbage (BadhaKopi)",
+      "category": "Vegetable",
+      "price": 12.49,
+      "currency": "USD",
+      "description": "Cold-pressed, virgin organic coconut oil perfect for cooking and skincare.",
+      "images": [
+        "https://example.com/images/organic-coconut-oil1.jpg",
+        "https://example.com/images/organic-coconut-oil2.jpg"
+      ],
+      "rating": 4.9,
+      "reviews": 150,
+      "stock": 120,
+      "brand": "Tropical Naturals",
+      "certifications": ["USDA Organic", "Non-GMO"],
+      "weight": "16 oz",
+      "dimensions": {
+        "length": 4,
+        "width": 4,
+        "height": 6
+      },
+      "ingredients": ["Organic Coconut Oil"],
+      "tags": ["cooking", "oil", "skincare"]
+    }
+  ]
+}
