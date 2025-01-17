@@ -20,3 +20,31 @@ export interface ProductType {
   ingredients: string[];
   tags: string[];
 }
+
+export interface Store {
+  storeId: string;
+  storeName: string;
+  location: Location;
+  contact: Contact;
+  categories: string[];
+  openingHours: OpeningHours;
+}
+interface Location {
+  address: string;
+  city: string;
+  state: string;
+  zipCode: string;
+}
+interface Contact {
+  phone: string;
+  email: string;
+}
+interface OpeningHours {
+  saturday: string;
+  sunday: string;
+  monday: string;
+  tuesday: string;
+  wednesday: string;
+  thursday: string;
+  friday: string;
+}

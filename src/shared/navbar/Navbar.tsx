@@ -2,7 +2,6 @@ import {
   Button,
   MegaMenu,
   MegaMenuDropdown,
-  Navbar,
   NavbarBrand,
   NavbarCollapse,
   NavbarLink,
@@ -27,7 +26,7 @@ const Navbar = () => {
           </div>
           <NavbarToggle />
           <NavbarCollapse>
-            <NavbarLink href='#'>Home</NavbarLink>
+            <NavbarLink href='/'>Home</NavbarLink>
             <NavbarLink>
               <MegaMenuDropdown toggle={<>Company</>}>
                 <ul className='grid grid-cols-3'>
@@ -96,7 +95,9 @@ const Navbar = () => {
               </MegaMenuDropdown>
             </NavbarLink>
             <NavbarLink href='/products'>Products</NavbarLink>
-            <NavbarLink href='#'>Contact</NavbarLink>
+            <NavbarLink href='/outlets'>Outlets</NavbarLink>
+            <NavbarLink href='/contract-us'>Contact</NavbarLink>
+            <NavbarLink href='/cart'>Cart</NavbarLink>
           </NavbarCollapse>
         </div>
       </MegaMenu>
