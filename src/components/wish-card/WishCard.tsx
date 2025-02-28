@@ -2,41 +2,40 @@ import { ProductType } from '@/app/types';
 import ButtonAddToCart from '@/shared/button/ButtonAddToCart';
 import Link from 'next/link';
 import React from 'react';
+import { AiOutlineClose } from 'react-icons/ai';
+import { FaRegTimesCircle } from 'react-icons/fa';
 import { HiOutlineViewfinderCircle } from 'react-icons/hi2';
 
-interface ProductCardProps {
+interface WishCardProps {
   key: number;
-  product: ProductType;
+  wishProduct: ProductType;
 }
 
-const ProductCard: React.FC<ProductCardProps> = ({ product = {} as ProductType }) => {
+const WishCard: React.FC<WishCardProps> = ({ wishProduct = {} as ProductType }) => {
   return (
     <>
-      <div className='relative mx-auto max-w-[168px] lg:max-w-[242px] overflow-hidden bg-white shadow-md text-center group/card border hover:border-primary duration-300'>
+      <div className='relative mx-auto max-w-[168px] lg:max-w-[200px] overflow-hidden bg-white shadow-md text-center group/card border hover:border-primary duration-300'>
         <a href='#'>
-          {product?.images && product.images[0] && (
+          {wishProduct?.images && wishProduct.images[0] && (
             <img
               className='mx-auto rounded-t-lg object-cover group-hover/card:scale-105 duration-300 delay-75 ease-in-out'
-              src={product.images[0]}
+              src={wishProduct.images[0]}
               alt='product image'
             />
           )}
         </a>
-        <span className='absolute top-4 left-0 w-20 border  bg-primary text-center text-sm font-semibold text-white'>
-          15% Off
-        </span>
+
         <button className='absolute opacity-10 flex top-0 right-0 p-2 m-4 bg-light shadow-2xl text-center text-3xl align-middle font-semibold text-gray-600 hover:text-primary duration-300 rounded-sm group-hover/card:opacity-100 group/modal'>
           <HiOutlineViewfinderCircle />
         </button>
         <div className='mt-1 lg:mt-4 px-5 pb-5'>
-          <Link href={`products/${product.name.toLowerCase().split(' ').join('-')}`}>
+          <Link href={`products/${wishProduct.name.toLowerCase().split(' ').join('-')}`}>
             <h5 className='text-base font-medium tracking-tight text-dark hover:text-primary duration-300'>
-              {product.name}
+              {wishProduct.name}
             </h5>
           </Link>
 
           <div className=' '>
-            <p className='text-sm text-gray-500 line-through'>$299</p>
             <p className='text-lg font-semibold text-dark'>$249</p>
           </div>
           <div className='flex items-center justify-between'>
@@ -64,10 +63,16 @@ const ProductCard: React.FC<ProductCardProps> = ({ product = {} as ProductType }
               <span className='relative invisible'>Button Text</span>
             </a>
           </div>
+          <button
+            type='button'
+            className='text-white mt-2 bg-red-500 hover:bg-red-600 focus:outline-none font-medium rounded-sm text-sm px-5 py-2 text-center inline-flex items-center '>
+            <FaRegTimesCircle className='text-xl me-2' />
+            Remove
+          </button>
         </div>
       </div>
     </>
   );
 };
 
-export default ProductCard;
+export default WishCard;

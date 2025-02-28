@@ -211,6 +211,7 @@ const Navbar = () => {
             <NavbarLink href='/outlets'>Outlets</NavbarLink>
             <NavbarLink href='/contract-us'>Contact</NavbarLink>
             <NavbarLink href='/cart'>Cart</NavbarLink>
+            <NavbarLink href='/my-account'>My Account</NavbarLink>
           </NavbarCollapse>
         </div>
       </MegaMenu>

@@ -7,6 +7,7 @@ import './globals.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Navbar from '@/shared/navbar/Navbar';
+import MegaMenu from '@/shared/navbar/Megamenu';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -32,7 +33,11 @@ export default function RootLayout({
     <html lang='en' className='scroll-smooth'>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased max-w-[1280px] m-auto px-1 lg:px-0 `}>
         <Navbar />
-        {children}
+        <div className='z-50'>
+          <MegaMenu />
+        </div>
+
+        <div className='z-40'>{children}</div>
       </body>
     </html>
   );

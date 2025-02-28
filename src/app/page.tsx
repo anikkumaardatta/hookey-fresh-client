@@ -11,7 +11,9 @@ export default function Home() {
   return (
     <>
       <main className=''>
-        <HeaderCarousel />
+        <div className='z-40'>
+          <HeaderCarousel />
+        </div>
         <div className='my-20'>
           <ProductShowcase products={products} />
           <ProductShowcase products={products} />

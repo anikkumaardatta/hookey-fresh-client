@@ -19,6 +19,7 @@ const HeaderCarousel = () => {
     autoplaySpeed: 2000,
     slidesToShow: 1,
     slidesToScroll: 1,
+    className: '-z-10',
   };
   return (
     <Slider {...settings}>
