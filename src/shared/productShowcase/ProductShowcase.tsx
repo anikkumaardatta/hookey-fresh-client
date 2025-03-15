@@ -38,7 +38,7 @@ const ProductShowcase: React.FC<ProductsProps> = ({ products = [{}] }) => {
     autoplaySpeed: 4000,
     slidesToShow: 4,
     slidesToScroll: 1,
-    className: '',
+    className: '-z-10',
     nextArrow: <SampleNextArrow />,
     // prevArrow: <SamplePrevArrow />,
     responsive: [

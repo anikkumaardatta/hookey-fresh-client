@@ -93,7 +93,7 @@ const page = ({ params }: { params: Promise<{ productName: string }> }) => {
     dots: true,
     dotsClass: 'slick-dots slick-thumb ',
     infinite: true,
-    className: 'max-w-[500px] mx-auto',
+    className: 'max-w-[500px] mx-auto -z-10',
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
