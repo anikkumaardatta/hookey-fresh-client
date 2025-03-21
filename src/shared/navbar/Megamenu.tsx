@@ -16,7 +16,7 @@ const MegaMenu: React.FC = () => {
   };
 
   return (
-    <div className='z-20'>
+    <div className='relative z-[2]'>
       {/* <!-- component --> */}
       <div className='group inline-block'>
         <button className='px-4 py-3 bg-primary text-white outline-none focus:outline-none border rounded-sm flex items-center min-w-48'>
@@ -50,18 +50,21 @@ const MegaMenu: React.FC = () => {
             transition duration-150 ease-in-out origin-top-left
             w-[720px] h-96 bg-light
             p-5
-            flex justify-between'>
+            flex justify-stretch
+            '>
                   {item.submenu.map((subitems, index) => (
-                    <>
-                      <div className=''>
-                        <span>{subitems.category}</span>
+                    <div className='m-4'>
+                      <div className='flex justify-between mb-5'>
+                        <span className='font-medium'>{subitems.category}</span>
                       </div>
-                      {subitems.items.map((item, index) => (
-                        <Link key={index} href='3' className='border font-medium hover:text-primary duration-100'>
-                          {item.menu}
-                        </Link>
-                      ))}
-                    </>
+                      <div className='flex flex-col'>
+                        {subitems.items.map((item, index) => (
+                          <Link key={index} href='3' className='pe-2 py-1 font-normal hover:text-primary duration-100'>
+                            {item.menu}
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
                   ))}
                 </ul>
               )}

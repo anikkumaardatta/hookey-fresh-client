@@ -34,11 +34,11 @@ const page = () => {
                       <td className='py-4'>$19.99</td>
                       <td className='py-4'>
                         <div className='flex items-center'>
-                          <button className='border rounded-md p-2 text-sm mr-2 hover:bg-primary hover:text-white opacity-80'>
+                          <button className='border rounded-md p-2 text-sm mr-2 hover:bg-primary hover:text-white'>
                             <FaMinus />
                           </button>
                           <span className='text-center w-8 text-lg'>1</span>
-                          <button className='border rounded-md p-2 text-sm ml-2 hover:bg-primary hover:text-white opacity-80'>
+                          <button className='border rounded-md p-2 text-sm ml-2 hover:bg-primary hover:text-white'>
                             <FaPlus />
                           </button>
                         </div>
@@ -60,11 +60,11 @@ const page = () => {
                       <td className='py-4'>$19.99</td>
                       <td className='py-4'>
                         <div className='flex items-center'>
-                          <button className='border rounded-md p-2 text-sm mr-2 hover:bg-primary hover:text-white opacity-80'>
+                          <button className='border rounded-md p-2 text-sm mr-2 hover:bg-primary hover:text-white'>
                             <FaMinus />
                           </button>
                           <span className='text-center w-8 text-lg'>1</span>
-                          <button className='border rounded-md p-2 text-sm ml-2 hover:bg-primary hover:text-white opacity-80'>
+                          <button className='border rounded-md p-2 text-sm ml-2 hover:bg-primary hover:text-white'>
                             <FaPlus />
                           </button>
                         </div>

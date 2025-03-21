@@ -41,24 +41,52 @@ const menulist = [
       },
     ],
   },
-  // {
-  //   navId: '002',
-  //   nav: 'Vegetables',
-  //   submenu: [
-  //     {
-  //       id: '201',
-  //       menu: 'Organic Cabbage (BadhaKopi)',
-  //       path: 'products/organic-cabbage-(badhakopi)',
-  //       imageUrl: '',
-  //     },
-  //     {
-  //       id: '202',
-  //       menu: 'Organic Eggplant(Bengun)',
-  //       path: 'products/organic-eggplant(bengun)',
-  //       imageUrl: '',
-  //     },
-  //   ],
-  // },
+  {
+    navId: '002',
+    nav: 'Vegetables & Fruits',
+    submenu: [
+      {
+        category: 'Vegetables',
+        items: [
+          {
+            id: '201',
+            menu: 'Organic Cabbage (BadhaKopi)',
+            path: 'products/organic-cabbage-(badhakopi)',
+            imageUrl: '',
+          },
+          {
+            id: '202',
+            menu: 'Organic Eggplant(Bengun)',
+            path: 'products/organic-eggplant(bengun)',
+            imageUrl: '',
+          },
+        ],
+      },
+      {
+        category: 'Fruits',
+        items: [
+          {
+            id: '101',
+            menu: 'Organic Apple',
+            path: '/organic-apple',
+            imageUrl: '',
+          },
+          {
+            id: '102',
+            menu: 'Organic Mango',
+            path: '/organic-mango',
+            imageUrl: '',
+          },
+          {
+            id: '103',
+            menu: 'Organic Banana',
+            path: '/organic-banana',
+            imageUrl: '',
+          },
+        ],
+      },
+    ],
+  },
   // {
   //   navId: '003',
   //   nav: 'Nuts & Dates',
