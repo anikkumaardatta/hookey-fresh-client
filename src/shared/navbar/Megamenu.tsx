@@ -46,6 +46,7 @@ const MegaMenu: React.FC = () => {
 
               {item.submenu.length > 0 && (
                 <ul
+                  key={item.navId}
                   className='border rounded-sm absolute top-0 right-1 
             transition duration-150 ease-in-out origin-top-left
             w-[720px] h-96 bg-light

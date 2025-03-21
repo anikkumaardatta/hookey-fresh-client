@@ -19,7 +19,7 @@ const Navbar = () => {
       <MegaMenu>
         <div className='mx-auto flex flex-wrap items-center justify-between p-4 md:space-x-8'>
           <NavbarBrand href='/'>
-            <img alt='' src='https://i.ibb.co.com/NYPZHrN/logo.png' className=' w-40 sm:h-10' />
+            <img alt='' src='https://i.ibb.co.com/ch7d0j3T/logo.png' className=' w-40 ' />
           </NavbarBrand>
           <div className='order-2 hidden items-center md:flex'>
             <button onClick={() => setOpenModal(true)} className='font-medium text-gray-700 hover:text-gray-800'>
